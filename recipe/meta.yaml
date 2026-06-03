@@ -55,7 +55,6 @@ outputs:
         - pandas
         - pyjwt >=2.10
         - packaging
-        - typing_extensions
         - python-dateutil
         - pytz
     test:
@@ -124,7 +123,7 @@ outputs:
         - boto3
         - torsiondrive
         - qcmanybody
-        - geometric >=1.1
+        - geometric >=1.1.1
 
         - qcfractalcompute ={{ version }}
         - __unix  # [unix]
